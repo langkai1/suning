@@ -1,0 +1,1411 @@
+/*
+* @Author: dell
+* @Date:   2018-05-17 07:34:23
+* @Last Modified by:   dell
+* @Last Modified time: 2018-06-01 16:34:17
+*/
+@import url(base.css);
+header{
+   width: 100%;
+   height: 100px;
+   background: #febf58;
+}
+.act{
+	width: 1190px;
+	height: 100px;
+	display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.close{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 10px;
+	right: -25px;
+	background: red;
+	font-size: 15px;
+	line-height: 15px;
+	color: #eeeeee;
+	background: #cb9846;
+}
+.close:hover{ 
+   background: #383838;
+ }
+.tool{
+	width: 100%;
+	height: 36px;
+}
+.tool1{
+	width: 1190px;
+	height: 100%;
+	margin: 0 auto;
+}
+.tooll{
+	width: 323px;
+	height: 36px;
+	float: left;
+}
+.bar{
+	
+	width: 85px;
+	height: 35px;
+	padding:0 10px ;
+	box-sizing: border-box;
+	float: left;
+	line-height: 35px;
+	font-size: 10px;
+	color: #666666;
+	cursor: default;
+}
+.zh{
+	float: right ;
+	transition: all .2s linear;
+}
+.bar:hover .zh{
+	transform:rotate(-180deg);
+}
+.bar1{
+	width: 81px;
+	height: 35px;
+	float: left;
+}
+.bar1:hover .zh{
+	transform:rotate(-180deg);
+}
+.ar1{
+	display: block;
+	width: 81px;
+	height: 35px;
+	padding:0 10px ;
+	box-sizing: border-box;
+	font-size: 10px;
+	line-height: 35px;
+	color: #666666;
+}
+.ar1:hover{
+   color: red;
+}
+.bar2{
+	width: 83px;
+	height: 35px;
+	float: left;
+}
+.bar2:hover .zh{
+	transform:rotate(-180deg);
+}
+.ar2{
+	width: 83px;
+}
+.bar3{
+	width: 74px;
+	height: 36px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+}
+.dian{
+	float: left;
+	width: 12px;
+	height: 15px;
+	margin-top: 10px;
+	margin-left: 4px;
+	background: url('../img/jingling.png') -387px 147px;
+	
+}
+.zi{
+	font-size: 10px;
+	line-height: 36px;
+	padding-left: 2px;
+}
+.sanj{
+	float: right;
+	width: 0px;
+	height: 0px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 8px solid #bbbbbb;
+	margin-top: 15px;
+	margin-right: 20px;
+	
+}
+.toolr{
+	width: 648px;
+	height: 35px;
+	float: right;
+}
+.bar4{
+	width: 115.6px;
+	height: 35px;
+	padding : 0 10px;
+	box-sizing: border-box;
+	float: left;
+}
+.login{
+	display: block;
+	font-size: 10px;
+	line-height: 35px;
+	color: #666666;
+	float: left;
+}
+.login:hover{
+   color: red;
+}
+.reg{
+	display: block;
+	font-size: 10px;
+	line-height: 35px;
+	color: red;
+	float: left;
+	padding-left: 11px;
+}
+.bar5{
+	width: 81px;
+	height: 35px;
+	padding:0 10px ;
+	box-sizing: border-box;
+	float: left;
+}
+.dd{
+	display: block;
+	font-size: 10px;
+	line-height: 35px;
+	color: #666666;
+}
+.dd:hover{
+   color: red;
+}
+.bar5:hover .zh{
+
+	transform:rotate(-180deg);
+}
+.bar6{
+	display: block;
+	width: 68px;
+	height: 35px;
+	float: left;
+	padding:0 10px ;
+	box-sizing: border-box;
+	font-size: 10px;
+	line-height: 35px;
+	text-align: center;
+	color: #666666;
+}
+.bar6:hover{
+	color: red;
+}
+.bar7{
+	display: block;
+	width: 96.8px;
+	height: 35px;
+	float: left;
+	padding:0 5px;
+	box-sizing: border-box;
+}
+.che{
+	width: 16px;
+	height: 100%;
+	line-height: 35px;
+	color: red;
+	float: left;
+}
+.cc{
+	font-size: 10px;
+	line-height: 35px;
+	float: left;
+	color: red;
+}
+.bar7:hover .zh{
+
+	transform:rotate(-180deg);
+}
+.b6{
+	width: 56px;
+}
+.con{
+	width: 1190px;
+	height: 110px;
+	margin:  auto;
+	overflow: hidden;
+}
+.logo{
+	width: 190px;
+	height: 90px;
+	float: left;
+}
+.chi{
+	width: 160px;
+	height: 100px;
+	float: left;
+}
+.cha{
+	width: 600px;
+	height: 100px;
+	float: left;
+	margin-left: -56px;
+	overflow: hidden;
+}
+.search{
+	width: 540px;
+	height: 63px;
+	float: right;
+	margin-top: 30px;
+}
+.st{
+	width: 536px;
+	height: 36px;
+	border: 2px solid #ff9900;
+}
+.ic{
+	width: 25px;
+	height: 40px;
+	float: left;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	color: #cccccf;
+}
+.ip{
+	width: 390px;
+	height: 34px;
+	outline: none;
+	border: none;
+	color: #cccccf;
+	float: left;
+}
+.sub{
+	width: 121px;
+	height: 36px;
+	background: red;
+	float: left;
+	border: none;
+	background:  #ff9900;
+	font-size: 18px;
+	color: white;
+}
+.sub:hover{
+   background: #dc960a;
+}
+.sb{
+	width: 540px;
+	height: 18px;
+	float: left;
+	margin-top: 3px;
+	
+}
+.kt{
+	display: block;
+	font-size: 12px;
+	height: 12px;
+	width: 34px;
+	line-height: 12px;
+	padding-right: 9px;
+	color: #999999;
+	border-right: 1px solid #999999;
+	box-sizing: border-box;
+	float: left;
+}
+.kt1{
+	color: red;
+	width: 90px;
+	padding-left: 9px;
+}
+.kt2{
+	color:  #999999;
+	width: 55px;
+}
+.kt3{
+	width: 81px;
+}
+.kt4{
+	width: 70px;
+}
+.kt5{
+	width: 43px;
+}
+.kt2:last-child{
+	border-right: 0;
+}
+.type{
+	width: 1190px;
+	height: 39px;
+	margin: 0 auto;
+}
+.ewm{
+	width: 90px;
+	height: 90px;
+	float: right;
+	padding: 1px;
+	box-sizing: border-box;
+}
+.all{
+	display: block;
+	width: 190px;
+	height: 38px;
+	float: left;
+	background: #ff9900;
+	font-size: 13px;
+	line-height: 38px;
+	color: white;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.all:hover{
+    background: #e08a09;
+}
+.sall{
+	width: 795px;
+	height: 38px;
+	float: left;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.txt{
+	/* width: 70px; */
+	height: 38px;
+	padding-left: 13px;
+	padding-right: 12px;
+	box-sizing: border-box;
+	float: left;
+	font-size: 14px;
+	line-height: 38px;
+	position: relative;
+    overflow: hidden;
+}
+.salla{
+	display: block;
+	font-size: 14px;
+	line-height: 38px;
+	color: black;
+	font-weight: 900;
+}
+.salla:hover{
+    color: red;
+}
+.sy{
+    width: 25px;
+    height: 8px;
+    position: absolute;
+    bottom: -8px;
+    left: 21px;
+    background: url('../img/jingling.png') -37px 0px;
+    transition: all .2s linear;
+}
+.sy:nth-child(3){
+    left: 25px;
+}
+.txt:hover .sy{
+	bottom: 0;
+}
+.fp{
+	display: block;
+	width: 170px;
+	height: 38px;
+	float: right;
+}
+.banner{
+	width:100% ;
+	height:440px ;
+}
+.banl{
+	width: 270px;
+	height: 440px;
+	float: left;
+    background: url('../img/con2.png') -276px 0px;
+    background-size: cover;
+}
+.banlt{
+	width: 190px;
+	height: 440px;
+	float: right;
+	background: #252221;
+}
+.banr{
+	width: 254px;
+	height: 440px;
+	float: right;
+     background: url('../img/con1.png') 0px 0px;
+}
+.b1{
+	width: 193px;
+	height: 32px;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 10px;
+	line-height: 32px;
+
+}
+.b1:hover{
+   background: white;
+
+}
+.shouji{
+	display: block;
+	height: 32px;
+	font-size: 10px;
+	line-height: 32px;
+	color: white;
+	float: left;
+}
+.b1:hover .shouji{
+	color: black;
+}
+.shouji:hover{
+	color: red;
+}
+.mid{
+	width: 825px;
+	height: 440px;
+	float: left;
+	
+}
+.rr{
+	width: 170px;
+	height: 430px;
+	float: left;
+
+}
+.user{
+	width: 170px;
+	height: 169px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 11px;
+	padding-bottom: 2px;
+
+}
+.pro{
+	width: 52px;
+	height: 52px;
+	margin: 0 auto;
+   display: block;
+	background:url('../img/jingling.png') -94px -24px;
+	overflow: hidden;
+}
+.mm{
+	width: 150px;
+	height: 32px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+}
+.enter{
+	width: 170px;
+	height: 22px;
+	margin: 6px 0;
+}
+.li{
+	display: block;
+	width: 68px;
+	height: 20px;
+	margin-left: 7px;
+    border: 1px solid #f8b500;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: #f8b500;
+    float: left;
+}
+.wai{
+    display: block;
+	width: 70px;
+	height: 22px;
+	margin-right: 7px;
+	float: right;
+	background:url('../img/jingling.png') -295px -251px;
+}
+.sda{
+	width: 75px;
+	height: 22px;
+	float: left;
+	font-size: 10px;
+	line-height: 22px;
+	color: black;
+}
+.sda:hover{
+	color: red;
+}
+.eee{
+	background: url('../img/jingling.png') -111px 0px;
+	margin-left: 7px;
+	float: left;
+	margin-top: 5px;
+}
+.wda{
+    width: 75px;
+	height: 22px;
+	float: right;
+	font-size: 10px;
+	line-height: 22px;
+	color: black;
+}
+.ww{
+	background: url('../img/jingling.png') -88px 0px;
+	margin-left: 7px;
+	float: left;
+	margin-top: 5px;
+}
+.wda:hover{
+	color: red;
+}
+.toutiao{
+	width: 150px;
+	height: 97px;
+	float: left;
+	margin: 9px 10px;
+}
+.wasd{
+	width: 100%;
+	height: 100%;
+    display: block;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.zhan{
+	display: block;
+	width: 150px;
+	height: 213px;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	overflow: hidden;
+	background: white;
+}
+.zan{
+	display: block;
+	width: 150px;
+	height: 213px;
+	position: absolute;
+	top: 224px;
+	right: 6px;
+	background: white;
+}
+.ttt{
+	width: 112px;
+	height: 22px;
+	font-size: 15px;
+	z-index: 999;
+	margin-left: 40px;
+	margin-right: 10px;
+	line-height: 40px;
+	color: black;
+}
+.www{
+	width: 112px;
+	height: 22px;
+	
+	z-index: 999;
+	margin-left: 28px;
+	line-height: 20px;
+    color: black;
+	font-size: 10px;
+}
+.box{
+	width: 140px;
+	height: 140px;
+	margin-left: 6px;
+	margin-top: 2px;
+	
+}
+.warp{
+	width: 1190px;
+	height: 325px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	margin: 0 auto;
+	
+}
+.djh{
+	width: 1190px;
+	height: 45px;
+	float: left;
+	background: white;
+	border-bottom: 2px solid red;
+}
+.djhl{
+	width: 190px;
+	height: 45px;
+	box-sizing: border-box;
+	padding-left: 15px;
+	background: #dc2829;
+	float: left;
+	overflow: hidden;
+}
+.py{
+   width: 93px;
+  height: 13px;
+  float: left;
+  background: url('../img/jingling.png') 0px -124px;
+  margin-top: 16px;
+  margin-left: 2px;
+}
+.djhr{
+	width: 116px;
+	height: 24px;
+	float: right;
+	margin-top: 12px;
+	background: #dc2829;
+	border-radius: 12px;
+	color: white;
+	padding-left: 17px;
+	box-sizing: border-box;
+	font-size: 10px;
+	line-height: 24px;
+}
+.pph{
+	width: 1190px;
+	height: 260px;
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pph1{
+    width: 16.5%;
+    height: 100%;
+  
+}
+.pph2{
+	width: 160px;
+	height: 160px;
+	margin: 15px auto;
+   
+    transition: transform .5s;
+}
+.ph{
+	width: 160px;
+	height: 36px;
+	font-size: 10px;
+	line-height: 18px;
+	margin: 0 auto;
+	color: black;
+	display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+    transition: transform .5s;
+    overflow: hidden;
+}
+.pph1:hover .ph{
+	color: red;
+}
+.pph1:hover .pph2{
+	transform: scale(1.1, 1.1);
+}
+.hh{
+	width: 1190px;
+	height: 427px;
+	
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.hh1{
+	width: 390px;
+	height: 427px;
+
+}
+.hh1t{
+	width: 390px;
+	height: 45px;
+	background: #3b8c94;
+	position: relative;
+}
+.sd{
+	display: block;
+	width: 62px;
+	height: 18px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+
+}
+.sd1{
+	width: 6px;
+	height: 9px;
+	float: right;
+	margin-top: 5px;
+	background: url('../img/jingling.png') -73px -37px;
+}
+.hh1b{
+	width: 369px;
+	height: 362px;
+	margin: 10px;
+	background: #e7e7e7;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.hhb{
+	display: block;
+	width: 184px;
+	height: 120px;
+	background: white;
+}
+.dada{
+  width: 90px;
+  height: 90px;
+  float: right;
+  margin-top: -41px;
+  margin-right: 1px;
+  background: red;
+}
+.el{
+	width: 84px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 8px;
+	padding:0 8px;
+	background: #e66a07;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+}
+.new{
+	position: absolute;
+	width: 53px;
+	height: 53px;
+	background: url('../img/dddd.png') ;
+	top: -18px;
+	left: 24%;
+}
+.ada{
+	width: 369px;
+	height: 166px;
+	background: white;
+	position: relative;
+}
+.xia{
+	width: 123px;
+	height: 166px;
+	float: left;
+	position: relative;
+	margin-top: -32px;
+}
+.asda{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 33px;
+	margin-bottom: 4px;
+}
+.sdaa{
+	width: 100px;
+	font-size: 10px;
+	padding-left: 11px;
+	display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow:hidden;
+    line-height: 14px;
+}
+.qizhi{
+	width: 23px;
+	height: 23px;
+	background: url('../img/jingling.png') -3px -241px;
+	position: absolute;
+	top: 36px;
+	left: 81px;
+	color: white;
+	line-height: 23px;
+	text-align: center;
+}
+.wa{
+	background: url('../img/jingling.png') -32px -241px;
+}
+.wd{
+	background: url('../img/jingling.png') -61px -241px;
+}
+.pindao{
+	width: 1190px;
+	height: 540px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.pindaol{
+	width: 790px;
+	height: 540px;
+
+}
+.pindaor{
+	width: 390px;
+	height: 540px;
+
+}
+.pindaol ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.pindao ul li{
+	width: 390px;
+	height: 170px;
+	background: -webkit-gradient(linear,0 0,right 0,from(#e89621),to(#f5c568));
+}
+.pd li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.tline{
+	width: 78px;
+	height: 2px;
+	position: absolute;
+	top:44px ;
+	left: 35px;
+	background: url('../img/jingling.png') -101px -245px;
+}
+.bline{
+	width: 152px;
+	height: 2px;
+	position: absolute;
+	top:79px ;
+	left: 35px;
+	background: url('../img/jingling.png') -101px -253px;
+}
+.pdn{
+	position: absolute;
+	top: 52px;
+	left: 35px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.pdp{
+	position: absolute;
+	top: 91px;
+	left: 35px;
+	color: white;
+	font-size: 14px;
+	font-weight: normal;
+}
+.pdpic{
+	position: absolute;
+	width: 170px;
+	height: 170px;
+	
+	top: 0;
+	right: 25px;
+	transition: all .5s linear;
+}
+.pindaor{
+	width: 390px;
+	height: 540px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.pdrt{
+	width: 390px;
+	height: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.pdrb{
+	width: 390px;
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.pdv{
+	width: 390px;
+	height: 272px;
+	
+}
+.pdv1{
+	width: 128px;
+	height: 73px;
+	position: relative;
+	 cursor: pointer;
+}
+.pdv1 span{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 25px;
+	left: 52px;
+	background:url('../img/jingling.png') -252px 0px;
+}
+.pdv1 span:hover{
+	background:url('../img/jingling.png') -252px -27px;
+}
+.pdv1 p{
+	position: absolute;
+	font-size: 10px;
+	line-height: 20px;
+	color: white;
+	bottom: 0;
+	left: 7px;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+}
+.pdvt{
+	width: 390px;
+	height: 45px;
+	background: #3f3435;
+	float: left;
+	line-height: 45px;
+	color: white;
+	font-size: 18px;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.pdvb{
+	display: block;
+	width: 390px;
+	height: 227px;
+	background: white;
+	float: left;
+	background: url('../img/pdv1.jpg') no-repeat center/cover;
+	position: relative
+}
+.pdvb i{
+	width: 58px;
+	height: 18px;
+	position: absolute;
+	background: url('../img/jingling.png') -325px -25px;
+	top: 19px;
+	left: 41px;
+	font-size: 10px;
+	line-height: 18px;
+	color: white;
+	padding-left: 23px;
+	box-sizing: border-box;
+}
+.pdvb span{
+	width: 50px;
+	height: 50px;
+	background: url('../img/jingling.png') -190px 0px;
+	position: absolute;
+	top: 80px;
+	left: 170px;
+}
+.pdvb span:hover{
+	background: url('../img/jingling.png') -391px 0px;
+}
+.pdvtt{
+	width: 390px;
+	height: 45px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	font-size: 14px;
+    line-height: 45px;
+	padding-left: 35px;
+	box-sizing: border-box;
+	color: white;
+}
+.pd li:hover .pdpic{
+     transform: translateX(-10px);
+}
+.pdrb a{
+  display: block;
+  width: 190px;
+  height: 170px;
+  background: -webkit-gradient(linear,0 0,right 0,from(#6ea166),to(#9fc766));
+}
+.s1{
+	position: absolute;
+	font-size: 20px;
+	line-height: 26px;
+	color: white;
+	top:22px;
+	left: 44px;
+	font-weight: bold;
+}
+.s2{
+	position: absolute;
+	font-size: 14px;
+	line-height: 20px;
+	color: white;
+	top:52px;
+	left: 41px;
+	
+}
+.s3{
+	width: 190px;
+	height: 100px;
+	position: absolute;
+	bottom: 0;
+}
+.floor{
+	width: 1190px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.floor a{
+	display: block;
+	width: 396px;
+	height: 100px;
+}
+.floor1{
+	width: 1190px;
+	height: 565px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.fl1{
+	width: 590px;
+	height: 567px;
+	
+}
+.titl{
+	width: 100%;
+	height: 45px;
+	border-top: 2px solid #33ae75;
+	background: #f0f7f4;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.titl_left{
+	width: 190px;
+	height: 45px;
+	background: #33ae75;
+	color: white;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	padding-left: 18px;
+	box-sizing: border-box;
+	float: left;
+}
+.titl_right{
+	width: 380px;
+	height: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.titl_right a{
+	display: block;
+	font-size: 14px;
+	color: #666;
+}
+.titl_right a:hover{
+	color: red;
+}
+.titl_left span{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url('../img/jingling.png') -232px -209px;
+	margin-left: 80px;
+	margin-top: -31px;
+}
+.content{
+	width: 100%;
+	height: 360px;
+	
+}
+.con_left{
+	width: 190px;
+	height: 360px;
+	float: left;
+	position: relative;
+}
+.con_right{
+	width: 400px;
+	height: 360px;
+	float: left;
+}
+.cover{
+   width: 190px;
+   height: 90px;
+   position: absolute;
+   bottom: 0;
+   background: #33ae75;
+}
+.cp{
+	font-size: 20px;
+	line-height: 56px;
+	font-weight: bold;
+	color: white;
+    margin-left: 20px;
+}
+.cpp{
+	font-size: 12px;
+	line-height: 0;
+	color: white;
+	margin-left: 13px;
+}
+.con_right ul{
+	width: 100%;
+	height: 100%;
+	display: flex ;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.con_right ul li{
+	width: 200px;
+	height: 180px;
+}
+.con_right a{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+.img_name{
+	width: 190px;
+	height: 24px;
+	margin: 14px auto;
+	margin-bottom: 0;
+	font-size: 16px;
+	height: 24px;
+	color: #333;
+	text-align: center;
+}
+.bottom_list{
+	width: 590px;
+	height: 110px;
+}
+.bottom_list a{
+	display: block;
+	width: 33%;
+	float: left;
+}
+.brande{
+	width: 100%;
+	height: 40px;
+	float: left;
+}
+.brande ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.brande ul li{
+	width: 80px;
+	height: 30px;
+}
+.brande ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.floatbar{
+	width: 78px;
+	height: 319px;
+	position: fixed;
+	background: white;
+	top: 49px;
+	left: 0px;
+	border: 1px solid #DDD;
+}
+.floatbar ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 10px ;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+}
+.floatbar ul li{
+	width: 69px;
+	height: 29px;
+	border-bottom: 1px solid #DDD;
+	color: #333;
+	text-align: center;
+	line-height: 29px;
+	font-size: 10px;
+	cursor: pointer;
+}
+.floatbar ul li:hover{
+	color: white;
+	background: #ff9900;
+}
+.tx{
+	width: 45px;
+	height: 37px;
+	position: absolute;
+	top: -18px;
+	left: 16px;
+	background: url('../img/jingling.png') -302px -80px;
+}
+.ttx{
+	position: absolute;
+	width: 70px;
+	height: 18px;
+	bottom: 0;
+	background: url('../img/jingling.png') -230px -183px;
+}
+.fbar{
+	width: 35px;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background: #383838;
+	overflow: hidden;
+	z-index: 999;
+}
+.fbr{
+	display: block;
+	width: 35px;
+	height: 30px;
+	margin-top: 188px;
+	background: red;
+	background: url('../img/jingling2.png') 0 0;
+}
+.fbr:hover{
+    background: #FFAA01 url('../img/jingling2.png') -26px 0;
+}
+.ffb{
+	width: 29px;
+	height: 102px;
+	border-bottom: 1px solid #4D4D4D;
+	border-top: 1px solid #4D4D4D;
+	padding-top: 3px;
+	padding-bottom: 10px;
+
+}
+.ffb i{
+	display: block;
+	width: 29px;
+	height: 30px;
+	background:url('../img/jingling2.png') 0px -209px ;
+}
+.asl{
+	width: 35px;
+	position: absolute;
+	
+	margin-top: 50px;
+}
+.asl span{
+	display: block;
+	width: 35px;
+	height: 30px;
+    background:url('../img/jingling2.png') 0px -47px;
+}
+.asl span:nth-of-type(2){
+	 background:url('../img/jingling2.png') 0px -70px;
+}
+.asl span:nth-of-type(3){
+	 background:url('../img/jingling2.png') 0px -94px;
+}
+.asl span:nth-of-type(4){
+	 background:url('../img/jingling2.png') 0px -142px;
+}
+.asl span:nth-of-type(5){
+	 background:url('../img/jingling2.png') 0px -164px;
+}
+.asl span:nth-of-type(6){
+	 background:url('../img/jingling2.png') 0px -186px;
+}
+.ng-footer{
+	width: 100%;
+	height: 604px;
+	
+	border-top: 1px solid #CCC;
+	 margin-top:10px ;
+}
+.een{
+	width: 1190px;
+	height: 604px;
+	margin: 0 auto;
+	
+}
+.eent{
+	width: 1190px;
+	height: 279px;
+	overflow: hidden;
+}
+.eentt{
+	width: 1190px;
+	height: 98px;
+	padding: 12px 0;
+	
+	border-bottom:  1px solid #CCC;
+}
+.eentt ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.eentt ul li{
+	width: 250px;
+	height: 48px;
+
+}
+.help{
+	width: 1190px;
+	height: 180px;
+}
+.help ul{
+	width: 100%;
+	height: 100%;
+	display: flex ;
+	justify-content: space-between;
+}
+.help ul li{
+	width: 198px;
+	height: 160px;
+	display: flex ;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.help a{
+	line-height: 22px;
+	color: #545454;
+	font-size: 10px;
+}
+.help a:hover{
+	color: red;
+}
+.eenb{
+	width: 1190px;
+	height: 160px;
+	margin-top: 15px;
+	margin-bottom: 150px;
+}
+.eenb p{
+	width: 1190px;
+	height: 25px;
+	text-align: center;
+}
+.eenb span{
+	line-height: 25px;
+	color: #666;
+	font-size: 10px;
+}
+.eenb a{
+	color: #666;
+}
+.abc{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url('../img/gwab-icon.png');
+}
