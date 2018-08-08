@@ -1486,7 +1486,7 @@ header{
 	height: 319px;
 	position: fixed;
 	background: white;
-	top: 49px;
+	bottom: 49px;
 	left: 0px;
 	border: 1px solid #DDD;
 }
